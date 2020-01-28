@@ -1,0 +1,91 @@
+[[instructions]]
+    pattern = "^static/js/.*\\.js$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "application/javascript"
+        cache_control = "max-age=31536000"
+
+[[instructions]]
+    pattern = "^static/css/.*\\.css$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "text/css"
+        cache_control = "max-age=31536000"
+
+[[instructions]]
+    pattern = "^.well-known/apple-app-site-association$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "application/json"
+
+[[instructions]]
+    pattern = "\\.DS_Store$"
+    action = "Exclude"
+
+[[instructions]]
+    pattern = "\\.css.map$"
+    action = "Exclude"
+
+[[instructions]]
+    pattern = "\\.js.map$"
+    action = "Exclude"
+
+[[instructions]]
+    pattern = "\\.js$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "application/javascript"
+
+[[instructions]]
+    pattern = "\\.css$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "text/css"
+
+[[instructions]]
+    pattern = "\\.json$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "application/json"
+
+[[instructions]]
+    pattern = "\\.xml$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "application/xml"
+
+[[instructions]]
+    pattern = "\\.txt$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "text/plain"
+
+[[instructions]]
+    pattern = "\\.html$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "text/html"
+
+[[instructions]]
+    pattern = "\\.png$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "image/png"
+
+[[instructions]]
+    pattern = "\\.jpg$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "image/jpeg"
+
+[[instructions]]
+    pattern = "\\.ico$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "image/x-icon"
+
+[[instructions]]
+    pattern = "\\.svg$"
+    action = "Upload"
+    [instructions.meta]
+        content_type = "image/svg+xml"
