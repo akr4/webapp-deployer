@@ -8,7 +8,7 @@ mod printer;
 mod s3;
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "webapp-deployer", about = "Deploy webapp to CloudFront")]
+#[structopt(name = "webapp-deployer", about = "Deploy webapp to s3")]
 struct Opt {
     #[structopt(parse(from_os_str))]
     config_file: PathBuf,
