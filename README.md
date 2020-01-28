@@ -57,7 +57,7 @@ An example instruction looks like as follows:
 
 dry run
 ```
-webapp-deployer --dry-run config.toml ./build my-webapp-bucket
+% webapp-deployer --dry-run config.toml ./build my-webapp-bucket
 ```
 
 ```
