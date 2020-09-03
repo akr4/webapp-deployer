@@ -3,6 +3,7 @@ name = "webapp-deployer"
 version = "1.0.0"
 authors = ["Akira Ueda <ue@gol.com>"]
 edition = "2018"
+publish = false
 
 [dependencies]
 walkdir = "2.2.9"
